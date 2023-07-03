@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+}
+.contriler{
+    width: 120px;
+    height: 100vh;
+    background-color: rgb(230, 103, 53);
+    color: rgb(3, 247, 186);
+}
+.contriler p {
+    border: 10px;
+    padding: 5px;
+}
+
+.contriler p:hover , button:hover {  
+    background-color: black;
+    color: aquamarine;
+    cursor: pointer;
+}
+
+button{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+
+/* 
+button:hover{
+     color: aquamarine;
+    background-color: black;
+} */
+
+#close{
+    left: 125px;
+    position: absolute;
+}
+
+.hide{
+    display: none;
+}
